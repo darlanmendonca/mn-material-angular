@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.scss"],"names":[],"mappings":"AAIA,KACE,mCACA,iCAAmC,CACpC","file":"app.css","sourcesContent":["/* inject:imports */\n@import '../../bower_components/mn-palette-color/sources/styles/mn-palette-color.scss';\n/* endinject */\n\nbody {\n  -webkit-font-smoothing: antialiased;\n  font-family: helvetica, sans-serif;\n}\n"]}

@@ -1,0 +1,10 @@
+{
+  "generator-bitch": {
+    "applicationName": "mn-material-angular",
+    "viewEngine": "jade",
+    "preprocessor": "sass",
+    "appFramework": "angular",
+    "frameworkModules": [],
+    "angularRoute": "uiRouter"
+  }
+}

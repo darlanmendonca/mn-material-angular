@@ -1,0 +1,14 @@
+doctype html
+html(ng-app='mn-material-angular')
+  head
+    title mn-material-angular
+    base(href="/")
+
+    include templates/metas
+    include templates/favicons
+    include templates/styles
+
+  body
+    div(ui-view='main')
+
+    include templates/scripts
