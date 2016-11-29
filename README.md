@@ -1,6 +1,6 @@
 A prototype in angular, mn-components, and material design.
 
-# Usage
+### Usage
 
 First, make sure you have all the dependencies installed:
 

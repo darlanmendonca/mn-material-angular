@@ -1,0 +1,32 @@
+.login {
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 50vh;
+    z-index: 0;
+    background-color: map-get($primary-color, 500);
+  }
+
+  .logotype {
+    transform: translateY(-2em);
+    font-size: 2.2em;
+  }
+
+  form {
+    width: 450px;
+    max-width: calc(100% - 2em);
+    position: relative;
+    z-index: 10;
+  }
+
+  .mn-button {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate3d(65%, -50%, 0) !important;
+    background-color: map-get($accent-color, 400);
+    color: white;
+  }
+}
