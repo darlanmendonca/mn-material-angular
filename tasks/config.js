@@ -32,10 +32,6 @@ module.exports = {
     ],
     dest: './public/scripts/',
   },
-  sprites: {
-    src: './sources/sprites/*.png',
-    dest: './public/imgs/sprites/',
-  },
   browserSync: browserSync.create(),
   browserSyncOptions: {
     server: {
