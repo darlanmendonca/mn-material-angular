@@ -10,12 +10,17 @@
   }
 
   .logotype {
-    transform: translateY(-2em);
     font-size: 2.2em;
+    font-size: 2.2em;
+    position: absolute;
+    top: 15vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
   }
 
   form {
-    width: 450px;
+    width: 550px;
     max-width: calc(100% - 2em);
     position: relative;
     z-index: 10;
@@ -28,5 +33,61 @@
     transform: translate3d(65%, -50%, 0) !important;
     background-color: map-get($accent-color, 400);
     color: white;
+
+    @media (max-width: 615px) {
+      top: auto;
+      bottom: 0;
+      right: 10px;
+      transform: translate(0, 50%) !important;
+    }
   }
+}
+
+.login {
+  &:before {
+    animation: enterDetail .7s cubic-bezier(.34,.22,.38,.94)
+  }
+
+  .card {
+    animation: enterCard .5s .27s ease backwards
+  }
+
+  .logotype {
+    animation: showAfterEnter .6s .7s ease backwards
+  }
+
+  .show-after-enter {
+    animation: showAfterEnter .8s .7s ease backwards;
+  }
+}
+
+@keyframes enterDetail {
+  0% {
+    transform: translateY(-60vh);
+  }
+
+  100% {
+    transform: none;
+  }
+}
+
+@keyframes enterCard {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 150%, 0);
+  }
+
+  60% {
+    opacity: 1
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes showAfterEnter {
+  0% {opacity: 0}
+  100% {opacity: 1}
 }
