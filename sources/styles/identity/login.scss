@@ -26,6 +26,17 @@
     position: relative;
     z-index: 10;
     padding-bottom: 3em;
+
+    mn-input {
+      margin-left: 2.2em
+    }
+  }
+
+  mn-input .zmdi {
+    font-size: 23px;
+    position: absolute;
+    left: -1.5em;
+    top: 5px;
   }
 
   .mn-button[name='submit'] {
