@@ -31,7 +31,7 @@
     top: 50%;
     right: 0;
     transform: translate3d(65%, -50%, 0) !important;
-    background-color: map-get($accent-color, 400);
+    background-color: map-get($accent-color, a200);
     color: white;
 
     @media (max-width: 615px) {
