@@ -1,9 +1,9 @@
 angular
   .module('mn-material-angular')
-  .config(AppConfig);
+  .config(AppConfig)
 
 function AppConfig($locationProvider, $stateProvider) {
-  $locationProvider.html5Mode(true);
+  $locationProvider.html5Mode(true)
 
   $stateProvider.state('app', {
     abstract: true,
@@ -12,5 +12,5 @@ function AppConfig($locationProvider, $stateProvider) {
         templateUrl: 'templates/app.template.html',
       },
     },
-  });
+  })
 }

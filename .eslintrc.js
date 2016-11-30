@@ -21,7 +21,7 @@ module.exports = {
     'angular',
   ],
   rules: {
-    semi: [required, 'always'],
+    semi: [required, 'never'],
     'comma-dangle': [required, 'always-multiline'],
     'comma-style': [required, 'last'],
     indent: [required, 2],
@@ -72,4 +72,4 @@ module.exports = {
     'angular/typecheck-object': required,
     'angular/typecheck-string': required
   }
-};
+}

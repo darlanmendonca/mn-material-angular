@@ -1,11 +1,12 @@
-import browserSync from 'browser-sync';
-import yargs from 'yargs';
+import browserSync from 'browser-sync'
+import yargs from 'yargs'
 
 module.exports = {
   lint: [
     './gulpfile.js',
     './test/**/*.js',
-    './sources/angular/**/*.js'
+    './sources/angular/**/*.js',
+    './tasks/**/*.js',
   ],
   views: {
     src: './sources/views/*.jade',
@@ -27,7 +28,7 @@ module.exports = {
   scripts: {
     src: [
       './sources/angular/**/*.js',
-      '!./sources/angular/**/*.spec.js'
+      '!./sources/angular/**/*.spec.js',
     ],
     dest: './public/scripts/',
   },
@@ -44,4 +45,4 @@ module.exports = {
     reloadDelay: 100,
     open: yargs.argv.open,
   },
-};
+}
