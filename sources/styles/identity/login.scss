@@ -32,11 +32,25 @@
     }
   }
 
-  mn-input .zmdi {
-    font-size: 23px;
-    position: absolute;
-    left: -1.5em;
-    top: 5px;
+  mn-input.icon {
+    margin-left: 2.2em;
+
+    &:before {
+      content: '';
+      position: absolute;
+      left: -1.5em;
+      top: 5px;
+      width: 25px;
+      text-align: center;
+
+      font: normal normal normal 14px/1 Material-Design-Iconic-Font;
+      font-size: 23px;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    &.email:before {content: '\f15a'}
+    &.lock:before {content: '\f191'}
   }
 
   .mn-button[name='submit'] {
