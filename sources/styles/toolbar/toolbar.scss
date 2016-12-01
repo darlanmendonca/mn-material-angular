@@ -10,6 +10,7 @@
   padding: 0 1em;
   align-items: center;
   display: flex;
+  background-color: map-get($primary-color, 400);
 
   & + * {
     min-height: calc(100vh - 3em);
