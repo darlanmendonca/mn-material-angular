@@ -5,4 +5,10 @@
   background: white;
 
   &.padding {padding: 1.6em 3em}
+  &.padding-title {
+    & > h2, & > h3 {
+      padding: 1em;
+      margin: 0;
+    }
+  }
 }
