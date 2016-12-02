@@ -5,3 +5,7 @@ mn-input input:focus {
     color: map-get($primary-color, 400);
   }
 }
+
+// form.ng-submitted mn-input input:invalid+label, form.submitted mn-input input:invalid+label {
+//   color: $oc-red-9;
+// }
