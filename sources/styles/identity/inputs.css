@@ -1,0 +1,7 @@
+mn-input input:focus {
+  box-shadow: 0 2px 0 map-get($primary-color, 400);
+
+  & + label {
+    color: map-get($primary-color, 400);
+  }
+}
