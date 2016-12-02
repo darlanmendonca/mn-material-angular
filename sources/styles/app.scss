@@ -6,9 +6,13 @@
 
 // identity
 @import 'identity/mn-palette-color';
-@import 'typography/typography';
+
+// components
 @import 'card/card';
+@import 'typography/typography';
 @import 'toolbar/toolbar';
+
+// identity
 @import 'identity/background';
 @import 'identity/logotype';
 @import 'identity/login';

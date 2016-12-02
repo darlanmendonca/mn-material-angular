@@ -8,6 +8,8 @@ function HomeConfig($stateProvider) {
     views: {
       'content@app': {
         templateUrl: 'templates/home.template.html',
+        controller: 'HomeController',
+        controllerAs: 'home',
       },
     },
   })
