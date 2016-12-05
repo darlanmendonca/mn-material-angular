@@ -1,0 +1,9 @@
+.sidenav a:hover, .sidenav a:focus,  {
+  box-shadow: inset 0 0 15rem map-get($accent-color, a200) !important;
+  color: white;
+}
+
+.sidenav a.active,  {
+  box-shadow: inset 0 0 15rem map-get($accent-color, a100);
+  color: white;
+}
