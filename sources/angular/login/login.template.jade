@@ -1,7 +1,7 @@
 .layout-fullscreen.layout-centered.login
   h2.logotype mn-material
 
-  form.card.padding.layout-column(name='form' ng-submit='form.$valid && login.authenticate()', novalidate, spellcheck='false')
+  form.mn-card.padding.layout-column(name='form' ng-submit='form.$valid && login.authenticate()', novalidate, spellcheck='false')
     //- mn-form.layout-column(name='form' ng-submit='login.authenticate()')
     mn-input.icon.email(placeholder='Email', name='email', ng-model='login.credentials.email', required, type='email')
     mn-input.icon.lock(placeholder='Password', name='password', ng-model='login.credentials.password', required, type='password')

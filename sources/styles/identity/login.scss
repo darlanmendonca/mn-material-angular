@@ -25,7 +25,7 @@
     color: white;
   }
 
-  .card {
+  .mn-card {
     width: 550px;
     max-width: calc(100% - 2em);
     position: relative;
@@ -84,7 +84,7 @@
     animation: enterDetail .7s cubic-bezier(.34,.22,.38,.94)
   }
 
-  .card {
+  .mn-card {
     animation: enterCard .5s .27s ease backwards
   }
 
