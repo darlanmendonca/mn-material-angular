@@ -7,7 +7,7 @@
     "angular-ui-router": "^0.2.15",
     "satellizer": "^0.15.5",
     "angular-mn-input": "^0.0.25",
-    "mn-layout": "^0.0.7",
+    "mn-layout": "^0.0.8",
     "mn-button": "^0.0.5",
     "material-design-iconic-font": "^2.2.0",
     "mdc-placeholders": "^0.1.8",

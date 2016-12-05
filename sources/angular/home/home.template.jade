@@ -10,3 +10,8 @@
       a.mn-item(href='#', ng-repeat='user in home.users')
         span {{ :: user.name }}
         span {{ :: user.email }}
+
+  div.layout-row.align-end
+    button.mn-button.action(aria-label='Prev'): i.zmdi.zmdi-chevron-left.zmdi-hc-2x
+    | 1 of 3 pages
+    button.mn-button.action(aria-label='Next'): i.zmdi.zmdi-chevron-right.zmdi-hc-2x
