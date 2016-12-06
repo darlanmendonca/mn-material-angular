@@ -8,7 +8,7 @@
     "satellizer": "^0.15.5",
     "angular-mn-input": "^0.0.26",
     "mn-layout": "^0.0.9",
-    "mn-button": "^0.0.5",
+    "mn-button": "^0.0.6",
     "material-design-iconic-font": "^2.2.0",
     "mdc-placeholders": "^0.1.8",
     "open-color": "^1.4.1",
