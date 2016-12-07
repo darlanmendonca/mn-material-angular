@@ -1,4 +1,4 @@
-A prototype in angular, mn-components, and material design.
+A prototype using mn-components, and material design as identity
 
 ### Usage
 
