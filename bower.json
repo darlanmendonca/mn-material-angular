@@ -15,7 +15,7 @@
     "mn-table-list": "^0.0.2",
     "mn-card": "^0.0.1",
     "angular-animate": "^1.5.9",
-    "angular-mn-form": "^0.0.1"
+    "angular-mn-form": "^0.0.2"
   },
   "devDependencies": {
     "angular-mocks": "^1.5.9"
