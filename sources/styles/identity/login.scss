@@ -25,16 +25,21 @@
     color: white;
   }
 
-  .mn-card {
+  mn-form {
     width: 550px;
     max-width: calc(100% - 2em);
     position: relative;
     z-index: 10;
+    padding: 0;
 
-    @media (max-width: 615px) {
-      padding: 1em 1em;
-      padding-bottom: 3em;
+    form {
+      margin-bottom: 0 !important;
+      @media (max-width: 615px) {
+        padding: 1em 1em;
+        padding-bottom: 3em;
+      }
     }
+
 
     mn-input {
       margin-left: 2.2em
@@ -62,7 +67,7 @@
     &.lock:before {content: '\f191'}
   }
 
-  .mn-button[type='submit'] {
+  .mn-button {
     position: absolute;
     top: 50%;
     right: 0;
