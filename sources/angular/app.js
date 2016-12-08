@@ -4,4 +4,5 @@ angular.module('mn-material-angular', [
   'mn-form',
   'mn-input',
   'ngAnimate',
+  'restangular',
 ])

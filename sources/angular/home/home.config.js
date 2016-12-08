@@ -10,6 +10,9 @@ function HomeConfig($stateProvider) {
         templateUrl: 'templates/home.template.html',
         controller: 'HomeController',
         controllerAs: 'home',
+        resolve: {
+          users: Users => Users.list(),
+        },
       },
     },
   })
