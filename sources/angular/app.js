@@ -5,4 +5,5 @@ angular.module('mn-material-angular', [
   'mn-input',
   'ngAnimate',
   'restangular',
+  'angular-loading-bar',
 ])
