@@ -1,5 +1,5 @@
-import bowerFiles from 'bower-files';
-import shellArugments from 'shell-arguments';
+import bowerFiles from 'bower-files'
+import shellArguments from 'shell-arguments'
 
 module.exports = function(config) {
   config.set({
@@ -31,7 +31,7 @@ module.exports = function(config) {
 
     client: {
       chai: {
-        includeStack: true
+        includeStack: true,
       },
       mocha: {
         grep: shellArguments.grep || '',
@@ -48,7 +48,7 @@ module.exports = function(config) {
     browserify: {
       debug: false,
       transform: [
-        ['babelify', { presets: ['es2015'] }],
+        ['babelify', {presets: ['es2015']}],
       ],
     },
 
@@ -77,9 +77,9 @@ module.exports = function(config) {
     browsers: ['PhantomJS'],
 
     phantomjsLauncher: {
-      exitOnResourceError: true
+      exitOnResourceError: true,
     },
 
     singleRun: true,
-  });
+  })
 }

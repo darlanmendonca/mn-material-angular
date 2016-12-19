@@ -1,7 +1,7 @@
-'use strict';
+'use strict'
 
-let optional = 1;
-let required = 2;
+let optional = 1
+let required = 2
 
 module.exports = {
   parserOptions: {
