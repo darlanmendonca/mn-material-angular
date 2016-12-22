@@ -22,10 +22,15 @@ module.exports = function(config) {
       'karma-coverage',
     ],
 
-    files: bowerFiles().dev().relative(__dirname).ext('js').files.concat([
-      'sources/angular/app.js',
-      'sources/angular/**/*.js',
-    ]),
+    files: bowerFiles()
+      .dev()
+      .relative(__dirname)
+      .ext('js')
+      .files
+      .concat([
+        'sources/angular/app.js',
+        'sources/angular/**/*.js',
+      ]),
 
     exclude: [],
 
