@@ -1,9 +1,9 @@
-.sidenav a:hover, .sidenav a:focus,  {
+mn-sidenav a:hover, mn-sidenav a:focus,  {
   box-shadow: inset 0 0 50em map-get($accent-color, a200) !important;
   color: white;
 }
 
-.sidenav a.active,  {
+mn-sidenav a.active,  {
   box-shadow: inset 0 0 50em map-get($accent-color, a100);
   color: white;
 }

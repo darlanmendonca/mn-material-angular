@@ -3,6 +3,7 @@ angular.module('mn-material-angular', [
   'satellizer',
   'mn-form',
   'mn-input',
+  'mn-sidenav',
   'ngAnimate',
   'restangular',
   'angular-loading-bar',
