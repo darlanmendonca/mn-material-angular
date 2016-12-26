@@ -1,13 +1,8 @@
 .layout-container
+  h2 Users list
   .mn-card.padding-title
-    h2 Users list
-
     .mn-table-list
-      header
-        h3 name
-        h3 email
-
-      a.mn-item(href='#' ng-repeat='user in home.users')
+      a.mn-item(href='#' ng-repeat='user in users.list')
         span {{ :: user.name }}
         span {{ :: user.email }}
 
