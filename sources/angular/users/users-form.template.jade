@@ -1,0 +1,17 @@
+.layout-container
+  h2 User
+
+  mn-form(submit='users.save()')
+    .mn-card.padding
+      .layout-column.layout-sm-row
+        mn-input.flex(name='name' placeholder='name' ng-model='users.data.name' required)
+        mn-input.flex(name='id' placeholder='username' ng-model='users.data.id' required)
+          
+      .layout-column.layout-sm-row
+        mn-input.flex(name='email' placeholder='email' type='email' ng-model='users.data.email' required)
+
+    div.layout-row.align-end
+      button.mn-button(ui-sref='^') Cancel
+      button.mn-button.raised(type='submit') Save
+
+
