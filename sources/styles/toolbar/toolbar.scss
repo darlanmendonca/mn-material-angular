@@ -24,5 +24,9 @@
     line-height: 100%;
     margin-right: .5em;
     margin-left: -.6em;
+
+    &:before {
+      background-color: rgba(0, 0, 0, .1) !important;
+    }
   }
 }
