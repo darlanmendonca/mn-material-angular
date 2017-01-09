@@ -25,6 +25,10 @@
     color: white;
   }
 
+  .mn-card {
+    padding: 3.4em 2em;
+  }
+
   mn-form {
     width: 550px;
     max-width: calc(100% - 2em);
@@ -40,16 +44,23 @@
       }
     }
 
+    mn-input:first-child {
+      margin-top: 0;
+    }
+
 
     mn-input {
-      margin-left: 2.2em
+      margin-left: 2.2em;
+      margin-top: 2em;
     }
   }
 
   mn-input.icon {
     margin-left: 2.2em;
 
-    &:before {
+    &.focused:after {color: map-get($primary-color, 400)}
+
+    &:after {
       content: '';
       position: absolute;
       left: -1.5em;
@@ -63,8 +74,8 @@
       -webkit-font-smoothing: antialiased;
     }
 
-    &.email:before {content: '\f15a'}
-    &.lock:before {content: '\f191'}
+    &.email:after {content: '\f15a'}
+    &.lock:after {content: '\f191'}
   }
 
   .mn-button {
@@ -83,7 +94,7 @@
 }
 
 .login {
-  &:before {
+  &:after {
     animation: enterDetail .7s cubic-bezier(.34,.22,.38,.94)
   }
 

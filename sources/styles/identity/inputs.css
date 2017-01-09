@@ -1,7 +1,7 @@
-mn-input input:focus {
+.mn-input.focused {
   box-shadow: 0 2px 0 map-get($primary-color, 400);
 
-  & + label {
+  &:before {
     color: map-get($primary-color, 400);
   }
 }
