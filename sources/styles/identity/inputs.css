@@ -5,3 +5,7 @@
     color: map-get($primary-color, 400);
   }
 }
+
+.mn-input {
+  margin-top: 2em;
+}

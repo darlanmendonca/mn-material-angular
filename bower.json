@@ -6,7 +6,7 @@
     "angular": "1.6.1",
     "angular-ui-router": "0.3.2",
     "satellizer": "0.15.5",
-    "angular-mn-input": "^0.0.29",
+    "angular-mn-input": "^0.0.30",
     "mn-layout": "^0.0.16",
     "mn-button": "^0.0.10",
     "material-design-iconic-font": "2.2.0",
